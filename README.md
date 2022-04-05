@@ -1,0 +1,1 @@
+# Impostare-indirizzo-IP-statico-al-raspberry
