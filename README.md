@@ -33,6 +33,7 @@ static domain_name_servers=192.168.0.1
   > 2. Usare indirizzi differenti per la rete cablata e wifi nel caso si voglia utilizzare entrambe le interfacce.
 
 Salvare il file di configurazione con <kbd>CTRL + x</kbd>, <kbd>y</kbd>, <kbd>ENTER</kbd>
+
 Riavviate il sistema
 ```bash
 sudo reboot
