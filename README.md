@@ -1,12 +1,12 @@
 # Impostare indirizzo IP statico al raspberry
 Prima di iniziare con l'assegnazione di un indirizzo IP privato al Raspberry, controllare che il servizio DHCPCD sia già attivato usando il comando:
 ```bash
-sudo service dhcpcd status
+sudo systemctl status dhcpcd
 ```
 
 In caso il servizio non sia attivo, attivarlo come segue:
 ```bash
-sudo service dhcpcd start
+sudo systemctl start dhcpcd
 sudo systemctl enable dhcpcd
 ```
 
