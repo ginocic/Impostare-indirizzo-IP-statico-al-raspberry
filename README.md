@@ -10,6 +10,11 @@ sudo systemctl start dhcpcd
 sudo systemctl enable dhcpcd
 ```
 
+Per prima cosa fare un backup del file di configurazione delle interfacce di rete originale in caso che qualcosa non vada per il verso giusto:
+```bash
+sudo mv /etc/dhcpcd.conf /etc/dhcpcd.conf.backup
+```
+
 Modificare il file di configurazione delle interfacce di rete:
 ```bash
 sudo nano /etc/dhcpcd.conf
